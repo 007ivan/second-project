@@ -1,0 +1,84 @@
+@import "nav.css";
+@import "slider.css";
+@import "content.css";
+
+html {
+    font-size: 13px;
+    font-family: 'Tangerine', cursive, Candal, 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(185, 185, 185, 0.5);
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 2px solid #d2d2d2;
+}
+
+.m-text1 {
+    font-size: 27px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #3c3c3c;
+    border-bottom: 2px solid #d2d2d2;
+    padding-bottom: 24px;
+}
+
+.m-text2 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #3c3c3c;
+
+}
+
+.slider-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+.slider-b1 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #c6c6c6;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #f4f4f4;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25), inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(0, 0, 0, .1),
+    inset 0 0 20px rgba(0, 0, 0, .1);
+    margin-left: 10px;
+}
+
+.slider-b1:hover {
+    background-color: #c6c6c6;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, .2),
+    0 2px 0 rgba(255, 255, 255, .4),
+    inset 0 2px 0 rgba(0, 0, 0, .1);
+    opacity: 1;
+    transition: opacity 2ms;
+}
